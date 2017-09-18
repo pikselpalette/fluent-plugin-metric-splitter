@@ -1,0 +1,4 @@
+.rake_tasks~
+vendor
+pkg
+*.swp
