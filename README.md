@@ -12,11 +12,13 @@ gem install fluent-plugin-metric-splitter
 The purpose of this filter is to split large hashes produced by check scripts into
 a series of hashes of the form:
 
+```
 { 
     "time" => 1505999101,
     "path" => "foo.bar.baz.failures",
     "data" => 1
 }
+```
 
 ## Usage
 
