@@ -35,7 +35,7 @@ module Fluent
         @name_key_pattern = Regexp.new(@name_key_pattern)
       end
     end
-      
+
     def format(tag, time, record)
       [tag, time, record].to_msgpack
     end
@@ -68,7 +68,7 @@ module Fluent
                           record.select { |k,v| @name_key_pattern.match(k) }
                         end
 
-      return nil if filtered_record.empty?
+      return {} if filtered_record.empty?
 
       metrics = {}
       tag = tag.sub(/\.$/, '') # may include a dot at the end of the emit_tag fluent-mixin-rewrite-tag-name returns. remove it.
