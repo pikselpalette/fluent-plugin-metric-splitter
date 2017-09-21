@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    fluent-plugin-metric-splitter (0.0.1)
+    fluent-plugin-metric-splitter (0.0.2)
       fluent-mixin-rewrite-tag-name
       fluentd (= 0.10.61)
 
