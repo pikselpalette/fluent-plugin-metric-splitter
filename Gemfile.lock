@@ -24,7 +24,7 @@ GEM
     json (2.1.0)
     msgpack (0.5.12)
     power_assert (1.1.0)
-    rake (12.1.0)
+    rake (12.3.3)
     sigdump (0.2.4)
     test-unit (3.2.5)
       power_assert
