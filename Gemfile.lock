@@ -21,7 +21,7 @@ GEM
       tzinfo-data (>= 1.0.0)
       yajl-ruby (~> 1.0)
     http_parser.rb (0.6.0)
-    json (2.1.0)
+    json (2.3.1)
     msgpack (0.5.12)
     power_assert (1.1.0)
     rake (12.1.0)
